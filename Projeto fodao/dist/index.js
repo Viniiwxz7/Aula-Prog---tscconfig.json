@@ -11,5 +11,5 @@ p1.setcpf("12345678987");
 let n = p1.getnome();
 let i = p1.getidade();
 let c = p1.getcpf();
-console.log(n);
+console.log(n, i, c);
 //# sourceMappingURL=index.js.map
