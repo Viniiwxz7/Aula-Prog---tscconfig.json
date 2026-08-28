@@ -6,18 +6,6 @@ let aluno1 =  new aluno("tds-0617", "iscolar di jadi", "jader de albuquerque", 1
 let matricula = aluno1.getMatricula()
 console.log(matricula)
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*import pessoa from "./pessoa";
 
 let p1 = new pessoa(" ",17," ")

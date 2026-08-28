@@ -18,4 +18,14 @@ export default class  aluno extends pessoa{
         this.matricula = matricula; 
 
     }
+
+    imprimirInfo(): void {
+    console.log(`Nome: ${this.getnome()}`);
+    console.log(`Idade: ${this.getidade()}`);
+    console.log(`Matrícula: ${this.getMatricula()}`);
+    console.log(`Escola de Origem: ${this.escolaOrigem}`);
+
+
+    }
 }
+
