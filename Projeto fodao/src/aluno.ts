@@ -20,6 +20,9 @@ export default class  aluno extends pessoa{
     }
 
     imprimirInfo(): void {
+
+        console.log(`Nome ${this.getnome()} - CPF: ${this.getcpf} - Idade: ${this.getidade} - Matricula: ${this.getMatricula}`)
+
     console.log(`Nome: ${this.getnome()}`);
     console.log(`Idade: ${this.getidade()}`);
     console.log(`Matrícula: ${this.getMatricula()}`);

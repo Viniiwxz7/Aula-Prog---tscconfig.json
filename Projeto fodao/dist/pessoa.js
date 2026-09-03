@@ -43,10 +43,6 @@ class pessoa {
             console.log("O cpf nao pode ser vazio");
         }
     }
-    imprimirInfo() {
-        console.log(`Nome ${this.nome}, idade${this.idade}`);
-        console.log(`Cpf:${this.cpf}`);
-    }
 }
 exports.default = pessoa;
 //# sourceMappingURL=pessoa.js.map

@@ -1,4 +1,4 @@
-export default class pessoa {
+export default abstract class pessoa {
     private nome;
     private idade;
     private cpf;
@@ -10,6 +10,6 @@ export default class pessoa {
     setnome(nome: string): void;
     setidade(idade: number): void;
     setcpf(cpf: string): void;
-    imprimirInfo(): void;
+    abstract imprimirInfo(): void;
 }
 //# sourceMappingURL=pessoa.d.ts.map

@@ -1,4 +1,4 @@
-export default class pessoa{
+export default abstract class pessoa{
     private nome: string = "    "
     private idade:number = 0
     private cpf:string = ""
@@ -47,8 +47,5 @@ export default class pessoa{
     }
 
 
-    imprimirInfo():void{
-        console.log(`Nome ${this.nome}, idade${this.idade}`)
-        console.log(`Cpf:${this.cpf}`)
-    }
+   abstract imprimirInfo():void
 }

@@ -1,11 +1,10 @@
 import pessoa from "./pessoa";
 export default class aluno extends pessoa {
     private matricula;
-    private curso;
-    private escolaOrigem?;
-    constructor(nome: string, idade: number, cpf: string, matricula: string, curso: string);
+    private escolaOrigem;
+    constructor(matricula: string, escolaOrigem: string, nome: string, idade: number, cpf: string);
     getMatricula(): string;
     setMatricula(matricula: string): void;
     imprimirInfo(): void;
 }
-//# sourceMappingURL=index.d.ts.map
+//# sourceMappingURL=aluno.d.ts.map
